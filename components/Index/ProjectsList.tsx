@@ -6,7 +6,7 @@ export const ProjectsList = () => (
 		<Card
 			title="Anomaly Detection and Event Prediction in Sensor Networks"
 			link="https://github.com/AnAi05/Anomaly-Detection-and-Event-Prediction-in-sensor-networks"
-			tags={['Gatsby', 'React', 'Tailwind', 'Firebase']}
+			tags={['Keras', 'Pandas', 'Python', 'Seaborn']}
 		>
 			Our client, a leading provider of innovative sensor network solutions, aims to
 			revolutionize sensor network technology. This project focuses on developing an
@@ -18,7 +18,7 @@ export const ProjectsList = () => (
 		<Card
 			title="Heart Disease Prediction"
 			link="https://github.com/AnAi05/Heart-Disease-Prediction"
-			tags={['Volunteering']}
+			tags={['Keras', 'Pandas', 'Python', 'Seaborn']}
 		>
 			The primary objective of this project is to build and evaluate machine learning
 			models for predicting the presence of heart disease based on a given set
@@ -29,7 +29,7 @@ export const ProjectsList = () => (
 		<Card
 			title="Salary Range Prediction"
 			link="https://github.com/AnAi05/Salary-Range-Prediction"
-			tags={['Competitive Programming']}
+			tags={['Keras', 'Matplotlib', 'Pandas', 'Python', 'Seaborn']}
 		>
 			Develop a machine learning algorithm to forecast salary ranges for job
 			listings based on title, category, and location. This model will align
@@ -56,9 +56,9 @@ export const ProjectsList = () => (
 		<Card
 			title="Personal Website"
 			link="https://github.com/AnAi05/new-portfolio"
-			tags={['React', 'Next.js', 'Tailwind']}
+			tags={['React', 'Node.js']}
 		>
-			This site! Built with React, Next.js, and Tailwind CSS.
+			This site! Built with HTML/CSS, React, Node.js.
 		</Card>
 		{/* <Card title="AP Physics C Practice" link="https://apc-practice.vercel.app/" tags={['Svelte']}>
 			AP Physics C Mechanics & E&M practice questions, scraped from CollegeBoard.

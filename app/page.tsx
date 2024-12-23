@@ -152,7 +152,7 @@ export default function Home() {
 								I've worked at Geeks for Geeks and First Quadrant Labs.
 							</LinkToSection>
 							<LinkToSection title="Projects" href="projects">
-								I am currently on "innit" our IDE web platform and anomaly detection.
+								I am currently on "innit" our IDE web platform.
 							</LinkToSection>
 							<LinkToSection title="Achievements" href="achievements">
 								Consistently honored on the prestigious Dean’s List in 2021 and 2022.
@@ -160,7 +160,7 @@ export default function Home() {
 						</div>
 						<div className="h-6 md:h-8 xl:h-16"></div>
 						<div className="font-mono uppercase text-slate-400 text-sm sm:text-base">
-							<a className={fancyLinkClasses} href="mailto:nathan.r.wang@gmail.com" target="_blank">
+							<a className={fancyLinkClasses} href="mailto:work@omjajulwar.dev" target="_blank">
 								Email
 							</a>{' '}
 							·{' '}
@@ -209,7 +209,10 @@ export default function Home() {
 						</p>
 						<p>
 							In moments of respite from Data and other gigs,
-							you'll find me immersed in a multitude of activities  1) Reading Books 2) Writing Vedanta Blogs 3) Travelling
+							you'll find me immersed in a multitude of activities:
+							<li>Reading Books</li>
+							<li>Writing Vedanta Blogs</li>
+							<li>Travelling</li>
 						</p>
 						<p>
 							Unleashing the Potential of Bits and Bytes!
@@ -228,27 +231,25 @@ export default function Home() {
 					<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Technical Grad Classes:</h2>
 						<ul className="list-disc ml-8 marker:text-slate-500 lg:space-y-0.5">
-							<li>6.521 Advanced Algorithms</li>
-							<li>6.584 Distributed Systems</li>
-							<li>6.390 Computer Vision</li>
-							<li>6.790 Machine Learning</li>
+							<li>Advanced Algorithms</li>
+							<li>Distributed Systems</li>
+							<li>Computer Vision</li>
+							<li>Machine Learning</li>
 						</ul>
 						<div className="h-4"></div>
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
 							Technical Undergrad Classes:
 						</h2>
 						<ul className="list-disc ml-8 marker:text-slate-500 lg:space-y-0.5">
-							<li>18.600 Probability and Random Variables</li>
-							<li>18.650 Fundamentals of Statistics</li>
-							<li>6.106 Software Performance Engineering</li>
-							<li>6.110 Computer Language Engineering (Static Compilers)</li>
-							<li>6.181 Operating Systems Engineering</li>
-							<li>6.1811 Natural Language Processing</li>
-							<li>6.190 Introduction to Low-level Programming in C and Assembly</li>
-							<li>6.191 Computation Structures</li>
+							<li>Probability and Random Variables</li>
+							<li>Fundamentals of Statistics</li>
+							<li>Operating Systems Engineering</li>
+							<li>Natural Language Processing</li>
+							<li>Introduction to Low-level Programming in C and Assembly</li>
+							<li>Computation Structures</li>
 						</ul>
 					</div>
-					<div className="h-8 lg:h-12"></div>
+					{/* <div className="h-8 lg:h-12"></div>
 					<div className={sectionBodyClasses}>
 						<p>
 							In Spring 2023, I was an LA for{' '}
@@ -280,7 +281,7 @@ export default function Home() {
 							</a>
 							, FBLA, AI Club, and Competitive Programming Club.
 						</p>
-					</div>
+					</div> */}
 				</div>
 
 				<div className={containerClasses} id="experience">
@@ -387,7 +388,7 @@ export default function Home() {
 						className={linkClasses}
 							href="./resume.pdf"
 							target="_blank"
-						rel="noopener noreferrer"
+							rel="noopener noreferrer"
 						>
 							Resume
 						</a>
@@ -399,7 +400,7 @@ export default function Home() {
 
 				<div className={`${containerClasses} pb-6 md:pb-12 lg:pb-24`}>
 					<div className="font-mono text-slate-400 text-xs md:text-sm lg:text-base">
-						Copyright {new Date().getFullYear()} Om Jajulwar.
+						Copyright {new Date().getFullYear()} OJ.
 						<br />
 						This site is built with{' '}
 						<a className={linkClasses} href="https://nextjs.org/" target="_blank">
