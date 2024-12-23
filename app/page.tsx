@@ -2,9 +2,6 @@ import { SectionTitle } from 'components/SectionTitle';
 import { LinkToSection } from 'components/Index/LinkToSection';
 import { ProjectsList } from 'components/Index/ProjectsList';
 import { Achievements } from 'components/Index/Achievements';
-import { Button } from "react-bootstrap"; 
-import { AiOutlineDownload } from "react-icons/ai"; 
-import pdf from 'path/to/your/pdf'; 
 import {
 	containerClasses,
 	fancyLinkClasses,
