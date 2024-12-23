@@ -146,13 +146,13 @@ export default function Home() {
 								I code, read books, think about "SELF", and do some other stuff.
 							</LinkToSection>
 							<LinkToSection title="School" href="school">
-								I study computer science at RTMNU.
+								I studied computer science at RTMNU.
 							</LinkToSection>
 							<LinkToSection title="Work Experience" href="experience">
 								I've worked at Geeks for Geeks and First Quadrant Labs.
 							</LinkToSection>
 							<LinkToSection title="Projects" href="projects">
-								I am currently on "innit" our IDE web platform.
+								I am currently working on "innit" our IDE web platform.
 							</LinkToSection>
 							<LinkToSection title="Achievements" href="achievements">
 								Consistently honored on the prestigious Dean’s List in 2021 and 2022.
@@ -179,6 +179,22 @@ export default function Home() {
 							>
 								LinkedIn
 							</a>{' '}
+							·{' '}
+							<a
+								className={fancyLinkClasses}
+								href="https://www.instagram.com/fakira.ai/"
+								target="_blank"
+							>
+								Instagram
+							</a>{' '}
+							·{' '}
+						<a
+							className={linkClasses}
+							href="https://x.com/fakira_ai"
+							target="_blank"
+						>
+							X
+						</a>{' '}
 							·{' '}
 							<a
 								className={fancyLinkClasses}
@@ -382,6 +398,22 @@ export default function Home() {
 							target="_blank"
 						>
 							Linkedin
+						</a>{' '}
+						·{' '}
+						<a
+							className={linkClasses}
+							href="https://www.instagram.com/fakira.ai/"
+							target="_blank"
+						>
+							Instagram
+						</a>{' '}
+						·{' '}
+						<a
+							className={linkClasses}
+							href="https://x.com/fakira_ai"
+							target="_blank"
+						>
+							X
 						</a>{' '}
 						·{' '}
 							<a
