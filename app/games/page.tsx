@@ -135,7 +135,7 @@ export default function Games() {
 							Also looking to try Werewords, Bang! The Dice Game, Cross Talk, Floor Plan, or other
 							miscellaneous roll and write games. Suggestions?{' '}
 							<a
-								href="mailto:nathan.r.wang@gmail.com"
+								href="mailto:work@omjajulwar.dev"
 								target="_blank"
 								rel="noreferrer"
 								className={linkClasses}
