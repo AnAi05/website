@@ -4,10 +4,8 @@ My personal portfolio which features some of my github projects as well as my re
 This project was built using these technologies:
 
 - React.js
-- Node.js
-- Express.js
+- Next.js
 - CSS3
-- VsCode
 - HTML
 - JavaScript
 
